@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LewinVCRouter (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LewinVCRouter (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LewinVCRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LewinVCRouter: 5cb9c4436f55ea4509f72382d8942e9c2f7929a4
+
+PODFILE CHECKSUM: 581f51332db40e8a93d67e5a14d1f10bec25815f
+
+COCOAPODS: 1.6.0

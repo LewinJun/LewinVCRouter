@@ -1,0 +1,6 @@
+framework module Pods_LewinVCRouter_Tests {
+  umbrella header "Pods-LewinVCRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

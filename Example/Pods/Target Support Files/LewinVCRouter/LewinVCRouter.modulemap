@@ -1,0 +1,6 @@
+framework module LewinVCRouter {
+  umbrella header "LewinVCRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
