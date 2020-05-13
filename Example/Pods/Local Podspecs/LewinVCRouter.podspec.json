@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of LewinVCRouter.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lizhiyu/LewinVCRouter",
+  "homepage": "https://github.com/LewinJun/LewinVCRouter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lizhiyu": "lizhiyu@ytangdata.com"
+    "Lewin": "junxianalan@gmail.com"
   },
   "source": {
-    "git": "https://github.com/lizhiyu/LewinVCRouter.git",
+    "git": "https://github.com/LewinJun/LewinVCRouter.git",
     "tag": "0.1.0"
   },
   "platforms": {

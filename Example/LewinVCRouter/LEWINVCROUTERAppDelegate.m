@@ -7,12 +7,17 @@
 //
 
 #import "LEWINVCROUTERAppDelegate.h"
+#import "LEWINVCROUTERViewController.h"
 
 @implementation LEWINVCROUTERAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    LEWINVCROUTERViewController *rootViewController = [LEWINVCROUTERViewController new];
+    self.window.rootViewController = rootViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072075B8246BE58D005C9150 /* Test1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 072075B6246BE58D005C9150 /* Test1VC.m */; };
+		072075B9246BE58D005C9150 /* Test1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 072075B7246BE58D005C9150 /* Test1VC.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		051FAA10D4EF35A50EC7A548 /* Pods-LewinVCRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LewinVCRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		072075B5246BE58D005C9150 /* Test1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1VC.h; sourceTree = "<group>"; };
+		072075B6246BE58D005C9150 /* Test1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1VC.m; sourceTree = "<group>"; };
+		072075B7246BE58D005C9150 /* Test1VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test1VC.xib; sourceTree = "<group>"; };
 		13F7BDF840E51C31E8E2F8E6 /* Pods-LewinVCRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LewinVCRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2E8741B53B11570DE85B8FED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		439A863887466951CB7DF2CC /* Pods-LewinVCRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LewinVCRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +156,9 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				072075B5246BE58D005C9150 /* Test1VC.h */,
+				072075B6246BE58D005C9150 /* Test1VC.m */,
+				072075B7246BE58D005C9150 /* Test1VC.xib */,
 			);
 			name = "Example for LewinVCRouter";
 			path = LewinVCRouter;
@@ -279,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				072075B9246BE58D005C9150 /* Test1VC.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -393,6 +402,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LEWINVCROUTERAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LEWINVCROUTERViewController.m in Sources */,
+				072075B8246BE58D005C9150 /* Test1VC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

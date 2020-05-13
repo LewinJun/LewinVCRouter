@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		04D56B9E3730FED873E0C870BB9BD20E /* Pods-LewinVCRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F925403621764FB6F28BED9CF68C9872 /* Pods-LewinVCRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		072075A9246A997A005C9150 /* LewinVCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 072075A7246A997A005C9150 /* LewinVCRouter.h */; };
-		072075AA246A997A005C9150 /* LewinVCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 072075A7246A997A005C9150 /* LewinVCRouter.h */; };
+		072075AA246A997A005C9150 /* LewinVCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 072075A7246A997A005C9150 /* LewinVCRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		072075AB246A997A005C9150 /* LewinVCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072075A8246A997A005C9150 /* LewinVCRouter.m */; };
 		072075AC246A997A005C9150 /* LewinVCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072075A8246A997A005C9150 /* LewinVCRouter.m */; };
-		072075B1246A9B7E005C9150 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 072075AE246A9B7E005C9150 /* .gitkeep */; };
-		072075B2246A9B7E005C9150 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 072075AE246A9B7E005C9150 /* .gitkeep */; };
 		072075B3246A9B7E005C9150 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 072075B0246A9B7E005C9150 /* .gitkeep */; };
 		072075B4246A9B7E005C9150 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 072075B0246A9B7E005C9150 /* .gitkeep */; };
 		16B6CB23794D995D807EA10E7CEF065E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -75,7 +73,6 @@
 		05734EA760D464EE6F6CB085C52CB063 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		072075A7246A997A005C9150 /* LewinVCRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LewinVCRouter.h; sourceTree = "<group>"; };
 		072075A8246A997A005C9150 /* LewinVCRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LewinVCRouter.m; sourceTree = "<group>"; };
-		072075AE246A9B7E005C9150 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		072075B0246A9B7E005C9150 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		0C1E1481A8DA556EB3B55165C6A1AD19 /* Pods-LewinVCRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LewinVCRouter_Example-umbrella.h"; sourceTree = "<group>"; };
 		0D5CFE63ECEFD86440179619FA0F6EE0 /* Pods_LewinVCRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LewinVCRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,7 +176,6 @@
 			children = (
 				072075A7246A997A005C9150 /* LewinVCRouter.h */,
 				072075A8246A997A005C9150 /* LewinVCRouter.m */,
-				072075AE246A9B7E005C9150 /* .gitkeep */,
 			);
 			name = Classes;
 			path = LewinVCRouter/Classes;
@@ -555,7 +551,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072075B2246A9B7E005C9150 /* .gitkeep in Resources */,
 				072075B4246A9B7E005C9150 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,7 +559,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072075B1246A9B7E005C9150 /* .gitkeep in Resources */,
 				072075B3246A9B7E005C9150 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
