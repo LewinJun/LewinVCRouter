@@ -11,7 +11,7 @@ DEPENDENCIES:
   - LewinVCRouter (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LewinVCRouter: 5cb9c4436f55ea4509f72382d8942e9c2f7929a4
+  LewinVCRouter: 962a528f12b19f120daa4f112c2d526dde535e1f
 
-PODFILE CHECKSUM: 581f51332db40e8a93d67e5a14d1f10bec25815f
+PODFILE CHECKSUM: 6a9bd86442cebdbf5eae24717288cb70b7d7b048
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.1

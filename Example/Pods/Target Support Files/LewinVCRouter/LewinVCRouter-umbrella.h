@@ -10,5 +10,8 @@
 #endif
 #endif
 
+#import "LewinVCRouter.h"
+
 FOUNDATION_EXPORT double LewinVCRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char LewinVCRouterVersionString[];
+

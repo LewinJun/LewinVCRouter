@@ -7,316 +7,345 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D56B9E3730FED873E0C870BB9BD20E /* Pods-LewinVCRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F925403621764FB6F28BED9CF68C9872 /* Pods-LewinVCRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		072075A9246A997A005C9150 /* LewinVCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 072075A7246A997A005C9150 /* LewinVCRouter.h */; };
-		072075AA246A997A005C9150 /* LewinVCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 072075A7246A997A005C9150 /* LewinVCRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		072075AB246A997A005C9150 /* LewinVCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072075A8246A997A005C9150 /* LewinVCRouter.m */; };
-		072075AC246A997A005C9150 /* LewinVCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072075A8246A997A005C9150 /* LewinVCRouter.m */; };
-		072075B3246A9B7E005C9150 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 072075B0246A9B7E005C9150 /* .gitkeep */; };
-		072075B4246A9B7E005C9150 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 072075B0246A9B7E005C9150 /* .gitkeep */; };
-		16B6CB23794D995D807EA10E7CEF065E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		24DEF3AF3296F229268D80B50E433240 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */; };
-		26D3EEFCFCA6DC9A4EB8EAD9703ECD98 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */; };
-		27C294AFD2251BF21CAFA97EB53DEDE3 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C8E41D43E185E62965404EC1F236FA0 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */; };
-		33CD52558D8E2F820100C8753AA2F32F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */; };
-		50B0390579D6D6AEEFB927139E823836 /* Pods-LewinVCRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1E1481A8DA556EB3B55165C6A1AD19 /* Pods-LewinVCRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61251F81AF2253436984B4A5713ACBE2 /* LewinVCRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54067960FCCA782D38A981C004B68BE2 /* LewinVCRouter-dummy.m */; };
-		6F01DF0FB5610799A00AC976F981EB18 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		700E8CE0FDD79F21D428FC3D54D36C0E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7E6E7BD910E2FA446CEBB40A9EDC1A9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */; };
-		8013FC4619C9CBE58F3F442A0510FDAB /* Pods-LewinVCRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 482701E1C03D7036026401689F2D7B7E /* Pods-LewinVCRouter_Example-dummy.m */; };
-		832DC61A7CA632444CD6DA46EF6491FC /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */; };
-		8C8CBE0160D700133D554C5EE0DA00CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
-		8E08BAF7E7CF8950BF8E17F6620BD6EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */; };
-		9BC5E5AEF49FA7B6216A60B659607290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
-		AA90D38B952D894F9EA242FC97504ED2 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC4D80E2841DE55D2266A4B67863EC8 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFA869102744DB995F3AC930E96E3AFF /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */; };
-		D218010A909CCE8A7173C6E52D9BF43E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
-		D428498A1A70F3DB2F9D9C921989E6B8 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */; };
-		D6B1B0AC7F376A0FC6DADEEAA737E508 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DBADABF56FC0675DEE45B90CE6AFA4E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */; };
-		E3B86D234BC43FB8877126BFDD760867 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */; };
-		E4D79257CE10AEE3861AA09739571427 /* Pods-LewinVCRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5190DF51995A4765FCC36B3B8113679 /* Pods-LewinVCRouter_Tests-dummy.m */; };
-		E7F0B09F899DBFE173736F8AE258ED48 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */; };
-		F460EF167044107586516FAD0A40E004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
-		F8DF0374879AD9CA64E209F5E1A423B4 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBBFC7545833B110A8C0C7B3DC7C75A7 /* LewinVCRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134E01E1212C203E7B25BADE958931AE /* LewinVCRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD440F8E940277FA07CFD50541EAF5B /* LewinVCRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E39E56B168682CFFFABF72276AD8DB /* LewinVCRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		212346821A2059EFD49746D4AF949230 /* Pods-LewinVCRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC5EF79F91AE161AE5151B8D720F78D /* Pods-LewinVCRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		641DAA5F6129D362365A9AF14A54AB8A /* LewinVCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0C924235C521ADF2516186C444C98E /* LewinVCRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6863E5F81A434A1987E9120A0053C5F7 /* LewinVCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BD7247A81D605BCCBD1CD7607F8A4 /* LewinVCRouter.m */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6D9BD17EFBB88ADA61CCDC81105E6392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		89EB47302E16B63D80FE691D4B2644E9 /* Pods-LewinVCRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4157023B8C142A6DDE3CAFD744F34AC4 /* Pods-LewinVCRouter_Tests-dummy.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B022BD42A554588E8862F511F6B4179 /* LewinVCRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4CA5B1CDC54ADDDE5BA8C977589AED /* LewinVCRouter-dummy.m */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		AB7DEAC80668C8CE22E08B1D1BB5A28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D90B6E761DB889D73DCFC1465B873B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E81AE80B27364684B5140F9C95244120 /* Pods-LewinVCRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F94EADA39FC93EC1E7D762CFECBA8E7 /* Pods-LewinVCRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F1981461696416B7A591F4E5C63DA5A6 /* Pods-LewinVCRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE142B764E5CACE404A4694340971D1 /* Pods-LewinVCRouter_Example-dummy.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BE470175BC667BA1A0417B438338C57 /* PBXContainerItemProxy */ = {
+		30185D2D1AA6D747DDBE597FF3C75BF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D3ACFDE390FE76465A1132EC9A7DF15;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		5373C1BC4580E42E8923563F6D1E710E /* PBXContainerItemProxy */ = {
+		36AC84847CF4CEBE32AFCA9044B74E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 98FA25F13E123058BAB34C31FD54976C;
-			remoteInfo = LewinVCRouter;
-		};
-		C82CFD08C13DBD8B0EC3D7FD3C96451D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F88777C0A2096DBF9688919A5C1511D;
+			remoteGlobalIDString = 42B0F75E35865244238B578E5B612231;
 			remoteInfo = "Pods-LewinVCRouter_Example";
+		};
+		3D9A82B4CD912FED7285995728DBCBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2779333A6F89C5E7AE7697251816AA11;
+			remoteInfo = LewinVCRouter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05734EA760D464EE6F6CB085C52CB063 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		072075A7246A997A005C9150 /* LewinVCRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LewinVCRouter.h; sourceTree = "<group>"; };
-		072075A8246A997A005C9150 /* LewinVCRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LewinVCRouter.m; sourceTree = "<group>"; };
-		072075B0246A9B7E005C9150 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		0C1E1481A8DA556EB3B55165C6A1AD19 /* Pods-LewinVCRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LewinVCRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		0D5CFE63ECEFD86440179619FA0F6EE0 /* Pods_LewinVCRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LewinVCRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		134E01E1212C203E7B25BADE958931AE /* LewinVCRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LewinVCRouter-umbrella.h"; sourceTree = "<group>"; };
-		1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		23511C70211E401C66413A45657C7343 /* Pods-LewinVCRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		246C14AA2572EA88E943F3638D910A77 /* LewinVCRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LewinVCRouter-Info.plist"; sourceTree = "<group>"; };
-		265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		2CE20913640BC0B1DD271E85982F78FB /* Pods-LewinVCRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3C5CA227BEF72755CBC38B9A0BDF0FE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4330228A198B1805A222D1D493660D55 /* LewinVCRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LewinVCRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		482701E1C03D7036026401689F2D7B7E /* Pods-LewinVCRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LewinVCRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		4BBBCC2E2EE7196E3FB3FE84CE96830B /* Pods-LewinVCRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Example-Info.plist"; sourceTree = "<group>"; };
-		4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		54067960FCCA782D38A981C004B68BE2 /* LewinVCRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LewinVCRouter-dummy.m"; sourceTree = "<group>"; };
-		562B0D76999FF560F0FF4BB3285FCCD6 /* Pods-LewinVCRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5911DEF206BC841C010D52E1676832BB /* Pods-LewinVCRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LewinVCRouter_Example.modulemap"; sourceTree = "<group>"; };
-		5FF9F72E38C27C2C277F14E306064D24 /* LewinVCRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LewinVCRouter.modulemap; sourceTree = "<group>"; };
-		70029BE0324C9DF1978CDD2FCA09F90A /* Pods-LewinVCRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LewinVCRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7254A0576480D0F777A14F8B9EB99076 /* Pods-LewinVCRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LewinVCRouter_Tests.modulemap"; sourceTree = "<group>"; };
-		7CC97CFD8DB55BA7A076B052D1B09B0D /* Pods-LewinVCRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LewinVCRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		80503BB5CD8467D98AD3659C2C65DBC8 /* Pods-LewinVCRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		9A384274C017018709C154C5B8A8EF09 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FB470F8854C05345E406F66F29F6814 /* LewinVCRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LewinVCRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		AEF0F49DD7B626D491AD297294B855F4 /* LewinVCRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LewinVCRouter.xcconfig; sourceTree = "<group>"; };
-		B611EAB7F7AC5135D6E65CAF0C2688BA /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		BEC3E9B1293797C9F4E0125DFFAA4CCD /* Pods-LewinVCRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Tests-Info.plist"; sourceTree = "<group>"; };
-		BF79A3A280C9FF27757152949C1258A3 /* Pods-LewinVCRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		C3D02CF27A6DAEF5A170F824D798AC01 /* Pods-LewinVCRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LewinVCRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		C49EB379BC4D661C9FC9C39ED95B560C /* Pods_LewinVCRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LewinVCRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5190DF51995A4765FCC36B3B8113679 /* Pods-LewinVCRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LewinVCRouter_Tests-dummy.m"; sourceTree = "<group>"; };
-		CAC26166F389E95CFEAD6C6BD3CE1D90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		D8276D145AC0345E1089C3AA2D1F606E /* Pods-LewinVCRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E51EE95EC6FEEA6CDE1CF4C98A60DBC4 /* LewinVCRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LewinVCRouter-prefix.pch"; sourceTree = "<group>"; };
-		E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EF5C7C8B1F553296C78495F0D00AFF06 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F0EAC9409A1C86F839B42C930B2F7F52 /* Pods-LewinVCRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LewinVCRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F925403621764FB6F28BED9CF68C9872 /* Pods-LewinVCRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LewinVCRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		159BD7247A81D605BCCBD1CD7607F8A4 /* LewinVCRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LewinVCRouter.m; path = LewinVCRouter/Classes/LewinVCRouter.m; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1C4D0869EA80EAD2F10E965235201FCC /* Pods-LewinVCRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LewinVCRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4157023B8C142A6DDE3CAFD744F34AC4 /* Pods-LewinVCRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LewinVCRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		42A606B93B47BF9F2CF3936624C995A6 /* LewinVCRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LewinVCRouter-prefix.pch"; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		470AE652555F3C3AB57DDB560EBF9B1F /* LewinVCRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LewinVCRouter.modulemap; sourceTree = "<group>"; };
+		4C1DF3B32C90E7A8111F231DAD1DCADD /* Pods-LewinVCRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LewinVCRouter_Example.modulemap"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4F14EA56BD3F668F0882B815CC0BFBE3 /* Pods-LewinVCRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52401AAE9ED64A8F241A501F1D029E2C /* Pods-LewinVCRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LewinVCRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5852697BA9E458223EE9E9627E00C3E4 /* Pods-LewinVCRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7637EF9F7759372DDD851003A052B7 /* Pods-LewinVCRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5EB17DA6A17AC24836A69A90DB0810AF /* Pods-LewinVCRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LewinVCRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		682AD9CAD31D440DC31F153ABB00A1B7 /* Pods-LewinVCRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LewinVCRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6ECB404BCB64079CCED10EC3471C16B6 /* LewinVCRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LewinVCRouter.framework; path = LewinVCRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7B3F27DED8007D39FE25552BB90598A7 /* LewinVCRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LewinVCRouter.debug.xcconfig; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		87DC478CA562DC72C5275FFAA0B07386 /* Pods_LewinVCRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LewinVCRouter_Example.framework; path = "Pods-LewinVCRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		89A5696503CA91214F1BC3537931EA4E /* Pods-LewinVCRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		90839DCEBCB13464AC42450563A6B0CC /* LewinVCRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LewinVCRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90BC49DBAA655611DDF104BD02865063 /* Pods-LewinVCRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9BC89FAB229259BFA0758BA5EBAA80D3 /* LewinVCRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LewinVCRouter-Info.plist"; sourceTree = "<group>"; };
+		9D0C924235C521ADF2516186C444C98E /* LewinVCRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LewinVCRouter.h; path = LewinVCRouter/Classes/LewinVCRouter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F94EADA39FC93EC1E7D762CFECBA8E7 /* Pods-LewinVCRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LewinVCRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		A1BAAA85BFD93B54093E882E4FCDCC6E /* LewinVCRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LewinVCRouter.release.xcconfig; sourceTree = "<group>"; };
+		A36457134EE5FAF324060B4FDBD99E0F /* Pods_LewinVCRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LewinVCRouter_Tests.framework; path = "Pods-LewinVCRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BA6ECCA476F44C8A3B3B93FEE78C10 /* Pods-LewinVCRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LewinVCRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		AC331D40E37BEB959D0E39BAF38704DB /* Pods-LewinVCRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		BCE142B764E5CACE404A4694340971D1 /* Pods-LewinVCRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LewinVCRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CC4CA5B1CDC54ADDDE5BA8C977589AED /* LewinVCRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LewinVCRouter-dummy.m"; sourceTree = "<group>"; };
+		CECB08DF5E474561193D51489BDAB0C5 /* Pods-LewinVCRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LewinVCRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D884E2D11F6B560562DECC080EA767EE /* Pods-LewinVCRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LewinVCRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5E39E56B168682CFFFABF72276AD8DB /* LewinVCRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LewinVCRouter-umbrella.h"; sourceTree = "<group>"; };
+		EA0BD6B6F9AD8F7E9622B0FFA9DFC047 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB750D54FCC5BF063C2CF9D6C18B2914 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FFC5EF79F91AE161AE5151B8D720F78D /* Pods-LewinVCRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LewinVCRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B843DD937C35FAFE447DB49B273D1A6 /* Frameworks */ = {
+		52735986603DAA20494AAF775C768189 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F460EF167044107586516FAD0A40E004 /* Foundation.framework in Frameworks */,
+				D90B6E761DB889D73DCFC1465B873B2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5128240DE18EBBA427DFD903699357DA /* Frameworks */ = {
+		5E1083B7D4DB1553F93691517A0463EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D218010A909CCE8A7173C6E52D9BF43E /* Foundation.framework in Frameworks */,
+				AB7DEAC80668C8CE22E08B1D1BB5A28B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		927FE7C162AC0C9B92452EC961D030A9 /* Frameworks */ = {
+		9E46E377D001EFBDA74716080DBDF9B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8CBE0160D700133D554C5EE0DA00CF /* Foundation.framework in Frameworks */,
-				8E08BAF7E7CF8950BF8E17F6620BD6EC /* QuartzCore.framework in Frameworks */,
-				DBADABF56FC0675DEE45B90CE6AFA4E7 /* UIKit.framework in Frameworks */,
-				7E6E7BD910E2FA446CEBB40A9EDC1A9A /* XCTest.framework in Frameworks */,
+				6D9BD17EFBB88ADA61CCDC81105E6392 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFA5216D2E5CFA1CD6731BEB5CB0E3A7 /* Frameworks */ = {
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC5E5AEF49FA7B6216A60B659607290 /* Foundation.framework in Frameworks */,
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		072075AD246A9B7E005C9150 /* Classes */ = {
+		2678422867333CA95F6DA5F70679CB12 /* Pods-LewinVCRouter_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				072075A7246A997A005C9150 /* LewinVCRouter.h */,
-				072075A8246A997A005C9150 /* LewinVCRouter.m */,
+				A8BA6ECCA476F44C8A3B3B93FEE78C10 /* Pods-LewinVCRouter_Tests.modulemap */,
+				5EB17DA6A17AC24836A69A90DB0810AF /* Pods-LewinVCRouter_Tests-acknowledgements.markdown */,
+				4F14EA56BD3F668F0882B815CC0BFBE3 /* Pods-LewinVCRouter_Tests-acknowledgements.plist */,
+				4157023B8C142A6DDE3CAFD744F34AC4 /* Pods-LewinVCRouter_Tests-dummy.m */,
+				52401AAE9ED64A8F241A501F1D029E2C /* Pods-LewinVCRouter_Tests-frameworks.sh */,
+				AC331D40E37BEB959D0E39BAF38704DB /* Pods-LewinVCRouter_Tests-Info.plist */,
+				FFC5EF79F91AE161AE5151B8D720F78D /* Pods-LewinVCRouter_Tests-umbrella.h */,
+				90BC49DBAA655611DDF104BD02865063 /* Pods-LewinVCRouter_Tests.debug.xcconfig */,
+				89A5696503CA91214F1BC3537931EA4E /* Pods-LewinVCRouter_Tests.release.xcconfig */,
 			);
-			name = Classes;
-			path = LewinVCRouter/Classes;
-			sourceTree = "<group>";
-		};
-		072075AF246A9B7E005C9150 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				072075B0246A9B7E005C9150 /* .gitkeep */,
-			);
-			name = Assets;
-			path = LewinVCRouter/Assets;
-			sourceTree = "<group>";
-		};
-		16B8D657ED78864429DA904F420CBF27 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF5C7C8B1F553296C78495F0D00AFF06 /* FBSnapshotTestCase.modulemap */,
-				A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */,
-				C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */,
-				05734EA760D464EE6F6CB085C52CB063 /* FBSnapshotTestCase-Info.plist */,
-				B611EAB7F7AC5135D6E65CAF0C2688BA /* FBSnapshotTestCase-prefix.pch */,
-				CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		1EBD46818714F8BE58753F7F9B38D221 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */,
-				E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */,
-				CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */,
-				7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
+			name = "Pods-LewinVCRouter_Tests";
+			path = "Target Support Files/Pods-LewinVCRouter_Tests";
 			sourceTree = "<group>";
 		};
 		38F266D6CF424429762016541C512AF0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A384274C017018709C154C5B8A8EF09 /* FBSnapshotTestCase.framework */,
-				4330228A198B1805A222D1D493660D55 /* LewinVCRouter.framework */,
-				0D5CFE63ECEFD86440179619FA0F6EE0 /* Pods_LewinVCRouter_Example.framework */,
-				C49EB379BC4D661C9FC9C39ED95B560C /* Pods_LewinVCRouter_Tests.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				6ECB404BCB64079CCED10EC3471C16B6 /* LewinVCRouter.framework */,
+				87DC478CA562DC72C5275FFAA0B07386 /* Pods_LewinVCRouter_Example.framework */,
+				A36457134EE5FAF324060B4FDBD99E0F /* Pods_LewinVCRouter_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		536AF506E1555392794A28968CC33E5E /* LewinVCRouter */ = {
+		3EC8890B6F15E871187BE699EB449937 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				072075AF246A9B7E005C9150 /* Assets */,
-				072075AD246A9B7E005C9150 /* Classes */,
-				5C4E1FC109DA1C88AB73FEF490659E16 /* Pod */,
-				663D43FF39A3085C1E9466F4368D61B7 /* Support Files */,
-			);
-			name = LewinVCRouter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5C4E1FC109DA1C88AB73FEF490659E16 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9FB470F8854C05345E406F66F29F6814 /* LewinVCRouter.podspec */,
-				3C5CA227BEF72755CBC38B9A0BDF0FE0 /* LICENSE */,
-				CAC26166F389E95CFEAD6C6BD3CE1D90 /* README.md */,
+				90839DCEBCB13464AC42450563A6B0CC /* LewinVCRouter.podspec */,
+				EB750D54FCC5BF063C2CF9D6C18B2914 /* LICENSE */,
+				EA0BD6B6F9AD8F7E9622B0FFA9DFC047 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		663D43FF39A3085C1E9466F4368D61B7 /* Support Files */ = {
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5FF9F72E38C27C2C277F14E306064D24 /* LewinVCRouter.modulemap */,
-				AEF0F49DD7B626D491AD297294B855F4 /* LewinVCRouter.xcconfig */,
-				54067960FCCA782D38A981C004B68BE2 /* LewinVCRouter-dummy.m */,
-				246C14AA2572EA88E943F3638D910A77 /* LewinVCRouter-Info.plist */,
-				E51EE95EC6FEEA6CDE1CF4C98A60DBC4 /* LewinVCRouter-prefix.pch */,
-				134E01E1212C203E7B25BADE958931AE /* LewinVCRouter-umbrella.h */,
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		52806E0EE6C2EC759416B5DD9039300E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				470AE652555F3C3AB57DDB560EBF9B1F /* LewinVCRouter.modulemap */,
+				CC4CA5B1CDC54ADDDE5BA8C977589AED /* LewinVCRouter-dummy.m */,
+				9BC89FAB229259BFA0758BA5EBAA80D3 /* LewinVCRouter-Info.plist */,
+				42A606B93B47BF9F2CF3936624C995A6 /* LewinVCRouter-prefix.pch */,
+				E5E39E56B168682CFFFABF72276AD8DB /* LewinVCRouter-umbrella.h */,
+				7B3F27DED8007D39FE25552BB90598A7 /* LewinVCRouter.debug.xcconfig */,
+				A1BAAA85BFD93B54093E882E4FCDCC6E /* LewinVCRouter.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LewinVCRouter";
 			sourceTree = "<group>";
 		};
-		A13712351800B1AFDCD9B30E18FC4C69 /* Development Pods */ = {
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				536AF506E1555392794A28968CC33E5E /* LewinVCRouter */,
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8C2CB1F0E93BCFF00D1F80043E85EE4D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB4B37EF45F4ACC92C3BCA044C7678C2 /* LewinVCRouter */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		901CA44306E6A5F9E40B9F50216A8280 /* Pods-LewinVCRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C1DF3B32C90E7A8111F231DAD1DCADD /* Pods-LewinVCRouter_Example.modulemap */,
+				1C4D0869EA80EAD2F10E965235201FCC /* Pods-LewinVCRouter_Example-acknowledgements.markdown */,
+				D884E2D11F6B560562DECC080EA767EE /* Pods-LewinVCRouter_Example-acknowledgements.plist */,
+				BCE142B764E5CACE404A4694340971D1 /* Pods-LewinVCRouter_Example-dummy.m */,
+				682AD9CAD31D440DC31F153ABB00A1B7 /* Pods-LewinVCRouter_Example-frameworks.sh */,
+				5C7637EF9F7759372DDD851003A052B7 /* Pods-LewinVCRouter_Example-Info.plist */,
+				9F94EADA39FC93EC1E7D762CFECBA8E7 /* Pods-LewinVCRouter_Example-umbrella.h */,
+				5852697BA9E458223EE9E9627E00C3E4 /* Pods-LewinVCRouter_Example.debug.xcconfig */,
+				CECB08DF5E474561193D51489BDAB0C5 /* Pods-LewinVCRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-LewinVCRouter_Example";
+			path = "Target Support Files/Pods-LewinVCRouter_Example";
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		A48E1CE60EB5AE8F4485C951C1217B3E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5707DB7E4CC0877D2B7164ED6CBB5C8 /* Pods-LewinVCRouter_Example */,
-				F5CD0A4F90CCC21CB68BA447A61C3070 /* Pods-LewinVCRouter_Tests */,
+				901CA44306E6A5F9E40B9F50216A8280 /* Pods-LewinVCRouter_Example */,
+				2678422867333CA95F6DA5F70679CB12 /* Pods-LewinVCRouter_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB4B37EF45F4ACC92C3BCA044C7678C2 /* LewinVCRouter */ = {
+			isa = PBXGroup;
+			children = (
+				9D0C924235C521ADF2516186C444C98E /* LewinVCRouter.h */,
+				159BD7247A81D605BCCBD1CD7607F8A4 /* LewinVCRouter.m */,
+				3EC8890B6F15E871187BE699EB449937 /* Pod */,
+				52806E0EE6C2EC759416B5DD9039300E /* Support Files */,
+			);
+			name = LewinVCRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1EBD46818714F8BE58753F7F9B38D221 /* iOS */,
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C5707DB7E4CC0877D2B7164ED6CBB5C8 /* Pods-LewinVCRouter_Example */ = {
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				5911DEF206BC841C010D52E1676832BB /* Pods-LewinVCRouter_Example.modulemap */,
-				C3D02CF27A6DAEF5A170F824D798AC01 /* Pods-LewinVCRouter_Example-acknowledgements.markdown */,
-				23511C70211E401C66413A45657C7343 /* Pods-LewinVCRouter_Example-acknowledgements.plist */,
-				482701E1C03D7036026401689F2D7B7E /* Pods-LewinVCRouter_Example-dummy.m */,
-				7CC97CFD8DB55BA7A076B052D1B09B0D /* Pods-LewinVCRouter_Example-frameworks.sh */,
-				4BBBCC2E2EE7196E3FB3FE84CE96830B /* Pods-LewinVCRouter_Example-Info.plist */,
-				0C1E1481A8DA556EB3B55165C6A1AD19 /* Pods-LewinVCRouter_Example-umbrella.h */,
-				80503BB5CD8467D98AD3659C2C65DBC8 /* Pods-LewinVCRouter_Example.debug.xcconfig */,
-				BF79A3A280C9FF27757152949C1258A3 /* Pods-LewinVCRouter_Example.release.xcconfig */,
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = "Pods-LewinVCRouter_Example";
-			path = "Target Support Files/Pods-LewinVCRouter_Example";
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A13712351800B1AFDCD9B30E18FC4C69 /* Development Pods */,
+				8C2CB1F0E93BCFF00D1F80043E85EE4D /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				38F266D6CF424429762016541C512AF0 /* Products */,
@@ -324,174 +353,88 @@
 			);
 			sourceTree = "<group>";
 		};
-		D2120C1FCA13B157B7B296C8361068FD /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				DE396F8CBAADE75BB26EFDB38317C298 /* Core */,
-				16B8D657ED78864429DA904F420CBF27 /* Support Files */,
-				31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		DE396F8CBAADE75BB26EFDB38317C298 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */,
-				290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */,
-				4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */,
-				1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */,
-				2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */,
-				841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */,
-				912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */,
-				93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */,
-				C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */,
-				265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */,
-				A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */,
-				2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */,
-				D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */,
-				FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D2120C1FCA13B157B7B296C8361068FD /* FBSnapshotTestCase */,
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F5CD0A4F90CCC21CB68BA447A61C3070 /* Pods-LewinVCRouter_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7254A0576480D0F777A14F8B9EB99076 /* Pods-LewinVCRouter_Tests.modulemap */,
-				F0EAC9409A1C86F839B42C930B2F7F52 /* Pods-LewinVCRouter_Tests-acknowledgements.markdown */,
-				D8276D145AC0345E1089C3AA2D1F606E /* Pods-LewinVCRouter_Tests-acknowledgements.plist */,
-				C5190DF51995A4765FCC36B3B8113679 /* Pods-LewinVCRouter_Tests-dummy.m */,
-				70029BE0324C9DF1978CDD2FCA09F90A /* Pods-LewinVCRouter_Tests-frameworks.sh */,
-				BEC3E9B1293797C9F4E0125DFFAA4CCD /* Pods-LewinVCRouter_Tests-Info.plist */,
-				F925403621764FB6F28BED9CF68C9872 /* Pods-LewinVCRouter_Tests-umbrella.h */,
-				562B0D76999FF560F0FF4BB3285FCCD6 /* Pods-LewinVCRouter_Tests.debug.xcconfig */,
-				2CE20913640BC0B1DD271E85982F78FB /* Pods-LewinVCRouter_Tests.release.xcconfig */,
-			);
-			name = "Pods-LewinVCRouter_Tests";
-			path = "Target Support Files/Pods-LewinVCRouter_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3C04F2226F83333F068B620775627936 /* Headers */ = {
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D56B9E3730FED873E0C870BB9BD20E /* Pods-LewinVCRouter_Tests-umbrella.h in Headers */,
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0F97E2B721CA13DEA75A35C59C09203 /* Headers */ = {
+		947ED664375E8594C8BC725E1F00D12E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072075AA246A997A005C9150 /* LewinVCRouter.h in Headers */,
-				FBBFC7545833B110A8C0C7B3DC7C75A7 /* LewinVCRouter-umbrella.h in Headers */,
+				0BD440F8E940277FA07CFD50541EAF5B /* LewinVCRouter-umbrella.h in Headers */,
+				641DAA5F6129D362365A9AF14A54AB8A /* LewinVCRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3B3D4D5190698745A597C2216CE7919 /* Headers */ = {
+		F6A228D08C1A3FAD1A2B181669C0F751 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B0390579D6D6AEEFB927139E823836 /* Pods-LewinVCRouter_Example-umbrella.h in Headers */,
+				E81AE80B27364684B5140F9C95244120 /* Pods-LewinVCRouter_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB0E5860EF8BEC402369B4198B36E033 /* Headers */ = {
+		FE611DC48BBEA9CAA0A509A2093E21AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA90D38B952D894F9EA242FC97504ED2 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				F8DF0374879AD9CA64E209F5E1A423B4 /* FBSnapshotTestCase.h in Headers */,
-				072075A9246A997A005C9150 /* LewinVCRouter.h in Headers */,
-				AAC4D80E2841DE55D2266A4B67863EC8 /* FBSnapshotTestCasePlatform.h in Headers */,
-				27C294AFD2251BF21CAFA97EB53DEDE3 /* FBSnapshotTestController.h in Headers */,
-				6F01DF0FB5610799A00AC976F981EB18 /* UIApplication+StrictKeyWindow.h in Headers */,
-				D6B1B0AC7F376A0FC6DADEEAA737E508 /* UIImage+Compare.h in Headers */,
-				16B6CB23794D995D807EA10E7CEF065E /* UIImage+Diff.h in Headers */,
-				700E8CE0FDD79F21D428FC3D54D36C0E /* UIImage+Snapshot.h in Headers */,
+				212346821A2059EFD49746D4AF949230 /* Pods-LewinVCRouter_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31DEE65CA667954EA9B829377D28C7FA /* Pods-LewinVCRouter_Tests */ = {
+		21C34A9FB842488AE83F3F5F109116FB /* Pods-LewinVCRouter_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DF9DFDB9D698BC8212A9F17172409BB /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Tests" */;
+			buildConfigurationList = 82D056B9291AFF2438326B07A4D4B834 /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Tests" */;
 			buildPhases = (
-				3C04F2226F83333F068B620775627936 /* Headers */,
-				B9A3E0106B2D999211DB5F8BA167EBF4 /* Sources */,
-				1B843DD937C35FAFE447DB49B273D1A6 /* Frameworks */,
-				7ABF97B6C737598A4D43BC7E6D0B41B4 /* Resources */,
+				FE611DC48BBEA9CAA0A509A2093E21AE /* Headers */,
+				6126B4FF3DBF4BAA8F2F89DD8BD56420 /* Sources */,
+				5E1083B7D4DB1553F93691517A0463EF /* Frameworks */,
+				295D467BFD024111CD21769F05E55D41 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B2FC37993A2190FBAF33F7710B32B0C /* PBXTargetDependency */,
-				E5BCA1610AE1233E2A00F17B16847943 /* PBXTargetDependency */,
+				6488F2A925FAEF387A3B396E87BE0378 /* PBXTargetDependency */,
+				9CEEE7B1AC5D4BF956B26F2B74A3523F /* PBXTargetDependency */,
 			);
 			name = "Pods-LewinVCRouter_Tests";
 			productName = "Pods-LewinVCRouter_Tests";
-			productReference = C49EB379BC4D661C9FC9C39ED95B560C /* Pods_LewinVCRouter_Tests.framework */;
+			productReference = A36457134EE5FAF324060B4FDBD99E0F /* Pods_LewinVCRouter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4F88777C0A2096DBF9688919A5C1511D /* Pods-LewinVCRouter_Example */ = {
+		2779333A6F89C5E7AE7697251816AA11 /* LewinVCRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A90D12ECE3E925843B778BEEA3E94DF2 /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Example" */;
+			buildConfigurationList = 6831274498754A8DE0B2CC274887A634 /* Build configuration list for PBXNativeTarget "LewinVCRouter" */;
 			buildPhases = (
-				C3B3D4D5190698745A597C2216CE7919 /* Headers */,
-				4909A14EF7C20C994860E4B1C710147F /* Sources */,
-				CFA5216D2E5CFA1CD6731BEB5CB0E3A7 /* Frameworks */,
-				5C84C384DB86E35EDBE09A49748F3021 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F35FC04D078C89D74BFA716EF8CE1F88 /* PBXTargetDependency */,
-			);
-			name = "Pods-LewinVCRouter_Example";
-			productName = "Pods-LewinVCRouter_Example";
-			productReference = 0D5CFE63ECEFD86440179619FA0F6EE0 /* Pods_LewinVCRouter_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6D3ACFDE390FE76465A1132EC9A7DF15 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03D68F182B52805E401158BD5F41DB73 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				DB0E5860EF8BEC402369B4198B36E033 /* Headers */,
-				2CD5F61591AA8042F095AF1CA65FB559 /* Sources */,
-				927FE7C162AC0C9B92452EC961D030A9 /* Frameworks */,
-				F60B73BD76BA6D49ADA1A7618A78389F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 9A384274C017018709C154C5B8A8EF09 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		98FA25F13E123058BAB34C31FD54976C /* LewinVCRouter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A13FCE4699D730894A50F7D24B58EA63 /* Build configuration list for PBXNativeTarget "LewinVCRouter" */;
-			buildPhases = (
-				C0F97E2B721CA13DEA75A35C59C09203 /* Headers */,
-				4A9B272EF13D2C2AA951C0F3F9437B1E /* Sources */,
-				5128240DE18EBBA427DFD903699357DA /* Frameworks */,
-				D05312C1893DC2E2A3EE30AB67F0F2F9 /* Resources */,
+				947ED664375E8594C8BC725E1F00D12E /* Headers */,
+				83F78787F8AAA59212E5F64464D8A5D5 /* Sources */,
+				9E46E377D001EFBDA74716080DBDF9B5 /* Frameworks */,
+				CC8ACAD060D6202AB373E0361659C6F7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -499,7 +442,44 @@
 			);
 			name = LewinVCRouter;
 			productName = LewinVCRouter;
-			productReference = 4330228A198B1805A222D1D493660D55 /* LewinVCRouter.framework */;
+			productReference = 6ECB404BCB64079CCED10EC3471C16B6 /* LewinVCRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42B0F75E35865244238B578E5B612231 /* Pods-LewinVCRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1289B4E973A6F135B3DE1916EB798AF2 /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Example" */;
+			buildPhases = (
+				F6A228D08C1A3FAD1A2B181669C0F751 /* Headers */,
+				7BD4B6CF2FA3DCFB198EFD5FF180E93F /* Sources */,
+				52735986603DAA20494AAF775C768189 /* Frameworks */,
+				B595E9C05E57A7C37DCD8735FE53BCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1AF3F0920C152E832C1D14848B4D39F /* PBXTargetDependency */,
+			);
+			name = "Pods-LewinVCRouter_Example";
+			productName = "Pods-LewinVCRouter_Example";
+			productReference = 87DC478CA562DC72C5275FFAA0B07386 /* Pods_LewinVCRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -508,133 +488,230 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 38F266D6CF424429762016541C512AF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D3ACFDE390FE76465A1132EC9A7DF15 /* FBSnapshotTestCase */,
-				98FA25F13E123058BAB34C31FD54976C /* LewinVCRouter */,
-				4F88777C0A2096DBF9688919A5C1511D /* Pods-LewinVCRouter_Example */,
-				31DEE65CA667954EA9B829377D28C7FA /* Pods-LewinVCRouter_Tests */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				2779333A6F89C5E7AE7697251816AA11 /* LewinVCRouter */,
+				42B0F75E35865244238B578E5B612231 /* Pods-LewinVCRouter_Example */,
+				21C34A9FB842488AE83F3F5F109116FB /* Pods-LewinVCRouter_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C84C384DB86E35EDBE09A49748F3021 /* Resources */ = {
+		295D467BFD024111CD21769F05E55D41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7ABF97B6C737598A4D43BC7E6D0B41B4 /* Resources */ = {
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05312C1893DC2E2A3EE30AB67F0F2F9 /* Resources */ = {
+		B595E9C05E57A7C37DCD8735FE53BCA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072075B4246A9B7E005C9150 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60B73BD76BA6D49ADA1A7618A78389F /* Resources */ = {
+		CC8ACAD060D6202AB373E0361659C6F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072075B3246A9B7E005C9150 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CD5F61591AA8042F095AF1CA65FB559 /* Sources */ = {
+		6126B4FF3DBF4BAA8F2F89DD8BD56420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C8E41D43E185E62965404EC1F236FA0 /* FBSnapshotTestCase-dummy.m in Sources */,
-				26D3EEFCFCA6DC9A4EB8EAD9703ECD98 /* FBSnapshotTestCase.m in Sources */,
-				E3B86D234BC43FB8877126BFDD760867 /* FBSnapshotTestCasePlatform.m in Sources */,
-				832DC61A7CA632444CD6DA46EF6491FC /* FBSnapshotTestController.m in Sources */,
-				33CD52558D8E2F820100C8753AA2F32F /* SwiftSupport.swift in Sources */,
-				CFA869102744DB995F3AC930E96E3AFF /* UIApplication+StrictKeyWindow.m in Sources */,
-				D428498A1A70F3DB2F9D9C921989E6B8 /* UIImage+Compare.m in Sources */,
-				E7F0B09F899DBFE173736F8AE258ED48 /* UIImage+Diff.m in Sources */,
-				24DEF3AF3296F229268D80B50E433240 /* UIImage+Snapshot.m in Sources */,
-				072075AB246A997A005C9150 /* LewinVCRouter.m in Sources */,
+				89EB47302E16B63D80FE691D4B2644E9 /* Pods-LewinVCRouter_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4909A14EF7C20C994860E4B1C710147F /* Sources */ = {
+		7BD4B6CF2FA3DCFB198EFD5FF180E93F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8013FC4619C9CBE58F3F442A0510FDAB /* Pods-LewinVCRouter_Example-dummy.m in Sources */,
+				F1981461696416B7A591F4E5C63DA5A6 /* Pods-LewinVCRouter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A9B272EF13D2C2AA951C0F3F9437B1E /* Sources */ = {
+		83F78787F8AAA59212E5F64464D8A5D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61251F81AF2253436984B4A5713ACBE2 /* LewinVCRouter-dummy.m in Sources */,
-				072075AC246A997A005C9150 /* LewinVCRouter.m in Sources */,
+				9B022BD42A554588E8862F511F6B4179 /* LewinVCRouter-dummy.m in Sources */,
+				6863E5F81A434A1987E9120A0053C5F7 /* LewinVCRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9A3E0106B2D999211DB5F8BA167EBF4 /* Sources */ = {
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D79257CE10AEE3861AA09739571427 /* Pods-LewinVCRouter_Tests-dummy.m in Sources */,
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B2FC37993A2190FBAF33F7710B32B0C /* PBXTargetDependency */ = {
+		6488F2A925FAEF387A3B396E87BE0378 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
-			target = 6D3ACFDE390FE76465A1132EC9A7DF15 /* FBSnapshotTestCase */;
-			targetProxy = 0BE470175BC667BA1A0417B438338C57 /* PBXContainerItemProxy */;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 30185D2D1AA6D747DDBE597FF3C75BF1 /* PBXContainerItemProxy */;
 		};
-		E5BCA1610AE1233E2A00F17B16847943 /* PBXTargetDependency */ = {
+		9CEEE7B1AC5D4BF956B26F2B74A3523F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LewinVCRouter_Example";
-			target = 4F88777C0A2096DBF9688919A5C1511D /* Pods-LewinVCRouter_Example */;
-			targetProxy = C82CFD08C13DBD8B0EC3D7FD3C96451D /* PBXContainerItemProxy */;
+			target = 42B0F75E35865244238B578E5B612231 /* Pods-LewinVCRouter_Example */;
+			targetProxy = 36AC84847CF4CEBE32AFCA9044B74E85 /* PBXContainerItemProxy */;
 		};
-		F35FC04D078C89D74BFA716EF8CE1F88 /* PBXTargetDependency */ = {
+		B1AF3F0920C152E832C1D14848B4D39F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LewinVCRouter;
-			target = 98FA25F13E123058BAB34C31FD54976C /* LewinVCRouter */;
-			targetProxy = 5373C1BC4580E42E8923563F6D1E710E /* PBXContainerItemProxy */;
+			target = 2779333A6F89C5E7AE7697251816AA11 /* LewinVCRouter */;
+			targetProxy = 3D9A82B4CD912FED7285995728DBCBD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015DB3C83EC5B62205E5BBBDA8688B68 /* Release */ = {
+		198072266AF582EFEB8EC4AE25D39D4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEF0F49DD7B626D491AD297294B855F4 /* LewinVCRouter.xcconfig */;
+			baseConfigurationReference = 5852697BA9E458223EE9E9627E00C3E4 /* Pods-LewinVCRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3437731976DE40F70A894FBB5FBD84E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BC49DBAA655611DDF104BD02865063 /* Pods-LewinVCRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36DE8AE4A2D98191BF05A40E10DC4D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A5696503CA91214F1BC3537931EA4E /* Pods-LewinVCRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -645,18 +722,51 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LewinVCRouter/LewinVCRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LewinVCRouter/LewinVCRouter-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LewinVCRouter/LewinVCRouter.modulemap";
-				PRODUCT_MODULE_NAME = LewinVCRouter;
-				PRODUCT_NAME = LewinVCRouter;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46B07A94D1AE74695EC4D1CEDC27E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECB08DF5E474561193D51489BDAB0C5 /* Pods-LewinVCRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -664,7 +774,7 @@
 			};
 			name = Release;
 		};
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -717,15 +827,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		1B2C1549DC880E7DA13AB48275EB37D5 /* Debug */ = {
+		5F4565E97BA491641CB2FE1BA5C1622A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEF0F49DD7B626D491AD297294B855F4 /* LewinVCRouter.xcconfig */;
+			baseConfigurationReference = A1BAAA85BFD93B54093E882E4FCDCC6E /* LewinVCRouter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -749,46 +860,13 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2D7A31B838B5E37F5CD625EBC2C719CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF79A3A280C9FF27757152949C1258A3 /* Pods-LewinVCRouter_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -847,16 +925,15 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		73501A2A79D3E7CC85EDC76EE95263E4 /* Release */ = {
+		846A490C48EE316E2D6A6E68604E8DF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CE20913640BC0B1DD271E85982F78FB /* Pods-LewinVCRouter_Tests.release.xcconfig */;
+			baseConfigurationReference = 7B3F27DED8007D39FE25552BB90598A7 /* LewinVCRouter.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -866,29 +943,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LewinVCRouter/LewinVCRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LewinVCRouter/LewinVCRouter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/LewinVCRouter/LewinVCRouter.modulemap";
+				PRODUCT_MODULE_NAME = LewinVCRouter;
+				PRODUCT_NAME = LewinVCRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		AD17690F4E3C05962484D2F4E1A72109 /* Release */ = {
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -917,121 +992,15 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BC358F5AD97304EF704F22769DEC6365 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80503BB5CD8467D98AD3659C2C65DBC8 /* Pods-LewinVCRouter_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Example/Pods-LewinVCRouter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D6B15E334B8286870039058880D02E80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EAB0B26D75D90A2EEBD7ABA646E3FBB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 562B0D76999FF560F0FF4BB3285FCCD6 /* Pods-LewinVCRouter_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LewinVCRouter_Tests/Pods-LewinVCRouter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03D68F182B52805E401158BD5F41DB73 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		1289B4E973A6F135B3DE1916EB798AF2 /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6B15E334B8286870039058880D02E80 /* Debug */,
-				AD17690F4E3C05962484D2F4E1A72109 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0DF9DFDB9D698BC8212A9F17172409BB /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAB0B26D75D90A2EEBD7ABA646E3FBB0 /* Debug */,
-				73501A2A79D3E7CC85EDC76EE95263E4 /* Release */,
+				198072266AF582EFEB8EC4AE25D39D4E /* Debug */,
+				46B07A94D1AE74695EC4D1CEDC27E982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1039,26 +1008,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A13FCE4699D730894A50F7D24B58EA63 /* Build configuration list for PBXNativeTarget "LewinVCRouter" */ = {
+		6831274498754A8DE0B2CC274887A634 /* Build configuration list for PBXNativeTarget "LewinVCRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B2C1549DC880E7DA13AB48275EB37D5 /* Debug */,
-				015DB3C83EC5B62205E5BBBDA8688B68 /* Release */,
+				846A490C48EE316E2D6A6E68604E8DF7 /* Debug */,
+				5F4565E97BA491641CB2FE1BA5C1622A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A90D12ECE3E925843B778BEEA3E94DF2 /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Example" */ = {
+		82D056B9291AFF2438326B07A4D4B834 /* Build configuration list for PBXNativeTarget "Pods-LewinVCRouter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC358F5AD97304EF704F22769DEC6365 /* Debug */,
-				2D7A31B838B5E37F5CD625EBC2C719CA /* Release */,
+				3437731976DE40F70A894FBB5FBD84E7 /* Debug */,
+				36DE8AE4A2D98191BF05A40E10DC4D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
