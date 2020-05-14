@@ -9,6 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```object-c
+// 跳转页面通过classname跳转
+[[LewinVCRouter sharedInstance] showViewController:@"Test1VC" param:nil];
+```
+
 ## Requirements
 
 ## Installation
